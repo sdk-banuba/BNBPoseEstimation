@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let bnbPackageVersion: Version = "1.11.0-3-gb365c1950"
+let bnbPackageVersion: Version = "1.11.1"
 
 let package = Package(
     name: "BNBPoseEstimation",
@@ -36,8 +36,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BNBPoseEstimation",
-            url: "https://d2cm7wtcqqw29.cloudfront.net/1.11.0-3-gb365c1950/BNBPoseEstimation.zip",
-            checksum: "dfd319141555264c752d3a926ccf56c441bebc605dc50dda36339983f6ef4a25"
+            url: "https://d2cm7wtcqqw29.cloudfront.net/1.11.1/BNBPoseEstimation.zip",
+            checksum: "f3adefe5ceecf0b6565c5e50e08fa5607704a5d8caec2e11f3a16a276e0e15c1"
         ),
         .target(
             name: "BNBPoseEstimation_BNBSdkCore",
